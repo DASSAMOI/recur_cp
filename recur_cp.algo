@@ -1,0 +1,16 @@
+ALGORITHM palindrome
+VAR
+    i,n : INTEGER;
+    str : STRING;
+BEGIN
+    ECRIRE("entrer le mot");
+    READ (str);
+    n:=str.length
+    FOR i FROM O TO n-1 STEP 1  DO
+        IF (str[i]==str[n(n-1)]) THEN
+            ECRIRE("Le mot est un palindrome");
+        ELSE
+            ECRIRE ("Le mot n'est pas un palindrome");
+        END_IF
+    END_FOR
+END
